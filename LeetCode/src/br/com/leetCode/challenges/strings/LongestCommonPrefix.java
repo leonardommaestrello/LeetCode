@@ -23,7 +23,7 @@ package br.com.leetCode.challenges.strings;
 	
 	Constraints:  	1 <= strs.length <= 200   -  0 <= strs[i].length <= 200  - 	strs[i] consists of only lowercase English letters.
 */
-public class Solutions {
+public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         // write your code here
         
@@ -48,7 +48,7 @@ public class Solutions {
     
     public static void main (String [] args) {
         String[] strs = {"banana", "band", "banner"};
-        Solutions sol = new Solutions();
+        LongestCommonPrefix sol = new LongestCommonPrefix();
         System.out.println("resultado: "+sol.longestCommonPrefix(strs));
     }
 }
